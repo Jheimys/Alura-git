@@ -18,3 +18,16 @@ Suponha também que terminamos nosso trabalho na **_branch titulo_**, agora deve
 
 Junta o trabalho de pessoas diferentes
 `git pull local master`
+
+# 4.Revert
+
+Para desfazer um commit use:`git revert +hash_do_commit`
+
+para visualizar o hash do commit bastar fazer um **git log**
+
+# 5.Tag
+
+o comando `git tag 'nome que quiser'` indica que o trabalho está sendo finalizado
+
+**_Ex:_**
+` git tag v0.1.0 -m "messagem que quiser"`
